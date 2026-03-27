@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nexus Islamic</string>
+    
+    <string name="nav_tasbih">المسبحة</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_azkar">الأذكار</string>
+    <string name="nav_add">إضافة</string>
+    
+    <string name="cat_tawakkul">توكل</string>
+    <string name="cat_tranquility">طمأنينة</string>
+    <string name="cat_patience">صبر</string>
+    <string name="cat_fasting">الصيام</string>
+    <string name="cat_prayer">الصلاة</string>
+</resources>

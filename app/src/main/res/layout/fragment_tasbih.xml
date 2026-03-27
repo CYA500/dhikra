@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream_bg">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardVirtue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/beige_card"
+        app:cardElevation="2dp">
+        <TextView
+            android:id="@+id/tvVirtue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="فضل الذكر سيظهر هنا..."
+            android:textColor="@color/text_mid"
+            android:textSize="16sp"
+            android:gravity="center" />
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/btnTapArea"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_centerInParent="true">
+
+        <ProgressBar
+            android:id="@+id/progressRing"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:indeterminate="false"
+            android:max="33"
+            android:progress="0"
+            android:progressDrawable="@get_drawable/ring_progress" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+            <TextView
+                android:id="@+id/tvCurrentDhikr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="سبحان الله"
+                android:textColor="@color/olive_primary"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="٠"
+                android:textColor="@color/text_dark"
+                android:textSize="65sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTapArea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        
+        <Button style="@style/Widget.Material3.Button.TextButton" android:text="٣٣" />
+        <Button style="@style/Widget.Material3.Button.TextButton" android:text="١٠٠" />
+        <Button style="@style/Widget.Material3.Button.TextButton" android:text="٥٠٠" />
+    </LinearLayout>
+
+</RelativeLayout>

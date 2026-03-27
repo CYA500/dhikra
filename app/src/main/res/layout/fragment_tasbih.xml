@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cream_bg">
@@ -12,6 +13,7 @@
         app:cardCornerRadius="15dp"
         app:cardBackgroundColor="@color/beige_card"
         app:cardElevation="2dp">
+        
         <TextView
             android:id="@+id/tvVirtue"
             android:layout_width="match_parent"
@@ -37,7 +39,7 @@
             android:indeterminate="false"
             android:max="33"
             android:progress="0"
-            android:progressDrawable="@get_drawable/ring_progress" />
+            android:progressDrawable="@drawable/ring_progress" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -74,9 +76,8 @@
         android:layout_marginTop="30dp"
         android:orientation="horizontal">
         
-        <Button style="@style/Widget.Material3.Button.TextButton" android:text="٣٣" />
-        <Button style="@style/Widget.Material3.Button.TextButton" android:text="١٠٠" />
-        <Button style="@style/Widget.Material3.Button.TextButton" android:text="٥٠٠" />
+        <Button android:id="@+id/btn33" style="@style/Widget.Material3.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="٣٣" />
+        <Button android:id="@+id/btn100" style="@style/Widget.Material3.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="١٠٠" />
     </LinearLayout>
 
 </RelativeLayout>

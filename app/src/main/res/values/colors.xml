@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="olive_primary">#556B2F</color> <color name="olive_dark">#3A4A1F</color>
+    <color name="gold_mustard">#C9A84C</color> <color name="gold_light">#E8C97A</color>
+    
+    <color name="cream_bg">#FAF7F0</color> <color name="beige_card">#F5F0E8</color> <color name="text_dark">#2C2416</color>
+    <color name="text_mid">#5A4A2A</color>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

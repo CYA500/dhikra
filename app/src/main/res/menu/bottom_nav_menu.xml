@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/nav_tasbih"
-        android:icon="@android:drawable/ic_btn_speak_now" 
-        android:title="@string/nav_tasbih" />
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="المسبحة" />
+
     <item
         android:id="@+id/nav_library"
-        android:icon="@android:drawable/ic_menu_book"
-        android:title="@string/nav_library" />
-    <item
-        android:id="@+id/nav_azkar"
-        android:icon="@android:drawable/ic_menu_today"
-        android:title="@string/nav_azkar" />
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="المكتبة" />
+
     <item
         android:id="@+id/nav_add"
-        android:icon="@android:drawable/ic_menu_add"
-        android:title="@string/nav_add" />
+        android:icon="@android:drawable/ic_input_add"
+        android:title="إضافة" />
+
 </menu>

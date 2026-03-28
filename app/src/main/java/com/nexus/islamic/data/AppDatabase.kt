@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [IslamicEntity::class], version = 1)
+@Database(entities = [IslamicEntity::class], version = 1, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun islamicDao(): IslamicDao
 
@@ -18,7 +18,7 @@ abstract class AppDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
-                    "nexus_islamic_db"
+                    "islamic_garden_db"
                 ).build()
                 INSTANCE = instance
                 instance

@@ -10,8 +10,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onContextItemSelected(item)
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState) // تم تنظيف السطر الخاطئ هنا
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
